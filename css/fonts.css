@@ -1,0 +1,391 @@
+@font-face {
+  font-family: "Tiempos Fine";
+  src: url("../extension-fonts/TiemposFine-Light.eot");
+  src: url("../extension-fonts/TiemposFine-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("../extension-fonts/TiemposFine-Light.woff2") format("woff2"),
+    url("../extension-fonts/TiemposFine-Light.woff") format("woff"),
+    url("../extension-fonts/TiemposFine-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Tiempos Fine";
+  src: url("../extension-fonts/TiemposFine-LightItalic.eot");
+  src: url("../extension-fonts/TiemposFine-LightItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../extension-fonts/TiemposFine-LightItalic.woff2") format("woff2"),
+    url("../extension-fonts/TiemposFine-LightItalic.woff") format("woff"),
+    url("../extension-fonts/TiemposFine-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Tiempos Fine";
+  src: url("../extension-fonts/TiemposFine-Regular.eot");
+  src: url("../extension-fonts/TiemposFine-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../extension-fonts/TiemposFine-Regular.woff2") format("woff2"),
+    url("../extension-fonts/TiemposFine-Regular.woff") format("woff"),
+    url("../extension-fonts/TiemposFine-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Tiempos Text";
+  src: url("../extension-fonts/TiemposText-Regular.eot");
+  src: url("../extension-fonts/TiemposText-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../extension-fonts/TiemposText-Regular.woff2") format("woff2"),
+    url("../extension-fonts/TiemposText-Regular.woff") format("woff"),
+    url("../extension-fonts/TiemposText-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Tiempos Fine";
+  src: url("../extension-fonts/TiemposFine-RegularItalic.eot");
+  src: url("../extension-fonts/TiemposFine-RegularItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../extension-fonts/TiemposFine-RegularItalic.woff2") format("woff2"),
+    url("../extension-fonts/TiemposFine-RegularItalic.woff") format("woff"),
+    url("../extension-fonts/TiemposFine-RegularItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Tiempos Text";
+  src: url("../extension-fonts/TiemposText-RegularItalic.eot");
+  src: url("../extension-fonts/TiemposText-RegularItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../extension-fonts/TiemposText-RegularItalic.woff2") format("woff2"),
+    url("../extension-fonts/TiemposText-RegularItalic.woff") format("woff"),
+    url("../extension-fonts/TiemposText-RegularItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Tiempos Text";
+  src: url("../extension-fonts/TiemposText-MediumItalic.eot");
+  src: url("../extension-fonts/TiemposText-MediumItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../extension-fonts/TiemposText-MediumItalic.woff2") format("woff2"),
+    url("../extension-fonts/TiemposText-MediumItalic.woff") format("woff"),
+    url("../extension-fonts/TiemposText-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Tiempos Text";
+  src: url("../extension-fonts/TiemposText-MediumItalic_1.eot");
+  src: url("../extension-fonts/TiemposText-MediumItalic_1.eot?#iefix")
+      format("embedded-opentype"),
+    url("../extension-fonts/TiemposText-MediumItalic_1.woff2") format("woff2"),
+    url("../extension-fonts/TiemposText-MediumItalic_1.woff") format("woff"),
+    url("../extension-fonts/TiemposText-MediumItalic_1.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Tiempos Text";
+  src: url("../extension-fonts/TiemposText-Medium.eot");
+  src: url("../extension-fonts/TiemposText-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("../extension-fonts/TiemposText-Medium.woff2") format("woff2"),
+    url("../extension-fonts/TiemposText-Medium.woff") format("woff"),
+    url("../extension-fonts/TiemposText-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Tiempos Text";
+  src: url("../extension-fonts/TiemposText-Medium_1.eot");
+  src: url("../extension-fonts/TiemposText-Medium_1.eot?#iefix")
+      format("embedded-opentype"),
+    url("../extension-fonts/TiemposText-Medium_1.woff2") format("woff2"),
+    url("../extension-fonts/TiemposText-Medium_1.woff") format("woff"),
+    url("../extension-fonts/TiemposText-Medium_1.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Tiempos Text";
+  src: url("../extension-fonts/TiemposText-Regular_1.eot");
+  src: url("../extension-fonts/TiemposText-Regular_1.eot?#iefix")
+      format("embedded-opentype"),
+    url("../extension-fonts/TiemposText-Regular_1.woff2") format("woff2"),
+    url("../extension-fonts/TiemposText-Regular_1.woff") format("woff"),
+    url("../extension-fonts/TiemposText-Regular_1.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Tiempos Text";
+  src: url("../extension-fonts/TiemposText-RegularItalic_1.eot");
+  src: url("../extension-fonts/TiemposText-RegularItalic_1.eot?#iefix")
+      format("embedded-opentype"),
+    url("../extension-fonts/TiemposText-RegularItalic_1.woff2") format("woff2"),
+    url("../extension-fonts/TiemposText-RegularItalic_1.woff") format("woff"),
+    url("../extension-fonts/TiemposText-RegularItalic_1.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Tiempos Text";
+  src: url("../extension-fonts/TiemposText-Regular_2.eot");
+  src: url("../extension-fonts/TiemposText-Regular_2.eot?#iefix")
+      format("embedded-opentype"),
+    url("../extension-fonts/TiemposText-Regular_2.woff2") format("woff2"),
+    url("../extension-fonts/TiemposText-Regular_2.woff") format("woff"),
+    url("../extension-fonts/TiemposText-Regular_2.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Tiempos Text";
+  src: url("../extension-fonts/TiemposText-RegularItalic_2.eot");
+  src: url("../extension-fonts/TiemposText-RegularItalic_2.eot?#iefix")
+      format("embedded-opentype"),
+    url("../extension-fonts/TiemposText-RegularItalic_2.woff2") format("woff2"),
+    url("../extension-fonts/TiemposText-RegularItalic_2.woff") format("woff"),
+    url("../extension-fonts/TiemposText-RegularItalic_2.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TodaySansNow Pro";
+  src: url("../extension-fonts/TodaySansNowPro-Bold.eot");
+  src: url("../extension-fonts/TodaySansNowPro-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../extension-fonts/TodaySansNowPro-Bold.woff2") format("woff2"),
+    url("../extension-fonts/TodaySansNowPro-Bold.woff") format("woff"),
+    url("../extension-fonts/TodaySansNowPro-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TodaySansNow Pro Demi";
+  src: url("../extension-fonts/TodaySansNowPro-Demi.eot");
+  src: url("../extension-fonts/TodaySansNowPro-Demi.eot?#iefix")
+      format("embedded-opentype"),
+    url("../extension-fonts/TodaySansNowPro-Demi.woff2") format("woff2"),
+    url("../extension-fonts/TodaySansNowPro-Demi.woff") format("woff"),
+    url("../extension-fonts/TodaySansNowPro-Demi.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TodaySansNow Pro BoldIta";
+  src: url("../extension-fonts/TodaySansNowPro-BoldIta.eot");
+  src: url("../extension-fonts/TodaySansNowPro-BoldIta.eot?#iefix")
+      format("embedded-opentype"),
+    url("../extension-fonts/TodaySansNowPro-BoldIta.woff2") format("woff2"),
+    url("../extension-fonts/TodaySansNowPro-BoldIta.woff") format("woff"),
+    url("../extension-fonts/TodaySansNowPro-BoldIta.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TodaySansNow Pro DemiIta";
+  src: url("../extension-fonts/TodaySansNowPro-DemiIta.eot");
+  src: url("../extension-fonts/TodaySansNowPro-DemiIta.eot?#iefix")
+      format("embedded-opentype"),
+    url("../extension-fonts/TodaySansNowPro-DemiIta.woff2") format("woff2"),
+    url("../extension-fonts/TodaySansNowPro-DemiIta.woff") format("woff"),
+    url("../extension-fonts/TodaySansNowPro-DemiIta.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TodaySansNow Pro";
+  src: url("../extension-fonts/TodaySansNowPro-Heavy.eot");
+  src: url("../extension-fonts/TodaySansNowPro-Heavy.eot?#iefix")
+      format("embedded-opentype"),
+    url("../extension-fonts/TodaySansNowPro-Heavy.woff2") format("woff2"),
+    url("../extension-fonts/TodaySansNowPro-Heavy.woff") format("woff"),
+    url("../extension-fonts/TodaySansNowPro-Heavy.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TodaySansNow Pro HeavyIta";
+  src: url("../extension-fonts/TodaySansNowPro-HeavyIta.eot");
+  src: url("../extension-fonts/TodaySansNowPro-HeavyIta.eot?#iefix")
+      format("embedded-opentype"),
+    url("../extension-fonts/TodaySansNowPro-HeavyIta.woff2") format("woff2"),
+    url("../extension-fonts/TodaySansNowPro-HeavyIta.woff") format("woff"),
+    url("../extension-fonts/TodaySansNowPro-HeavyIta.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TodaySansNow Pro";
+  src: url("../extension-fonts/TodaySansNowPro-Light.eot");
+  src: url("../extension-fonts/TodaySansNowPro-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("../extension-fonts/TodaySansNowPro-Light.woff2") format("woff2"),
+    url("../extension-fonts/TodaySansNowPro-Light.woff") format("woff"),
+    url("../extension-fonts/TodaySansNowPro-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TodaySansNow Pro";
+  src: url("../extension-fonts/TodaySansNowPro-Medium.eot");
+  src: url("../extension-fonts/TodaySansNowPro-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("../extension-fonts/TodaySansNowPro-Medium.woff2") format("woff2"),
+    url("../extension-fonts/TodaySansNowPro-Medium.woff") format("woff"),
+    url("../extension-fonts/TodaySansNowPro-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TodaySansNow Pro LightIta";
+  src: url("../extension-fonts/TodaySansNowPro-LightIta.eot");
+  src: url("../extension-fonts/TodaySansNowPro-LightIta.eot?#iefix")
+      format("embedded-opentype"),
+    url("../extension-fonts/TodaySansNowPro-LightIta.woff2") format("woff2"),
+    url("../extension-fonts/TodaySansNowPro-LightIta.woff") format("woff"),
+    url("../extension-fonts/TodaySansNowPro-LightIta.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TodaySansNow Pro MediumIta";
+  src: url("../extension-fonts/TodaySansNowPro-MediumIta.eot");
+  src: url("../extension-fonts/TodaySansNowPro-MediumIta.eot?#iefix")
+      format("embedded-opentype"),
+    url("../extension-fonts/TodaySansNowPro-MediumIta.woff2") format("woff2"),
+    url("../extension-fonts/TodaySansNowPro-MediumIta.woff") format("woff"),
+    url("../extension-fonts/TodaySansNowPro-MediumIta.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TodaySansNow Pro Ultra";
+  src: url("../extension-fonts/TodaySansNowPro-Ultra.eot");
+  src: url("../extension-fonts/TodaySansNowPro-Ultra.eot?#iefix")
+      format("embedded-opentype"),
+    url("../extension-fonts/TodaySansNowPro-Ultra.woff2") format("woff2"),
+    url("../extension-fonts/TodaySansNowPro-Ultra.woff") format("woff"),
+    url("../extension-fonts/TodaySansNowPro-Ultra.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TodaySansNow Pro";
+  src: url("../extension-fonts/TodaySansNowPro-Regular.eot");
+  src: url("../extension-fonts/TodaySansNowPro-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../extension-fonts/TodaySansNowPro-Regular.woff2") format("woff2"),
+    url("../extension-fonts/TodaySansNowPro-Regular.woff") format("woff"),
+    url("../extension-fonts/TodaySansNowPro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TodaySansNow Pro RegularIta";
+  src: url("../extension-fonts/TodaySansNowPro-RegularIta.eot");
+  src: url("../extension-fonts/TodaySansNowPro-RegularIta.eot?#iefix")
+      format("embedded-opentype"),
+    url("../extension-fonts/TodaySansNowPro-RegularIta.woff2") format("woff2"),
+    url("../extension-fonts/TodaySansNowPro-RegularIta.woff") format("woff"),
+    url("../extension-fonts/TodaySansNowPro-RegularIta.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TodaySansNow Pro UltraIta";
+  src: url("../extension-fonts/TodaySansNowPro-UltraIta.eot");
+  src: url("../extension-fonts/TodaySansNowPro-UltraIta.eot?#iefix")
+      format("embedded-opentype"),
+    url("../extension-fonts/TodaySansNowPro-UltraIta.woff2") format("woff2"),
+    url("../extension-fonts/TodaySansNowPro-UltraIta.woff") format("woff"),
+    url("../extension-fonts/TodaySansNowPro-UltraIta.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TodaySansNow Pro XLightIta";
+  src: url("../extension-fonts/TodaySansNowPro-ExtraLightIta.eot");
+  src: url("../extension-fonts/TodaySansNowPro-ExtraLightIta.eot?#iefix")
+      format("embedded-opentype"),
+    url("../extension-fonts/TodaySansNowPro-ExtraLightIta.woff2")
+      format("woff2"),
+    url("../extension-fonts/TodaySansNowPro-ExtraLightIta.woff") format("woff"),
+    url("../extension-fonts/TodaySansNowPro-ExtraLightIta.ttf")
+      format("truetype");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TodaySansNow Pro XLight";
+  src: url("../extension-fonts/TodaySansNowPro-ExtraLight.eot");
+  src: url("../extension-fonts/TodaySansNowPro-ExtraLight.eot?#iefix")
+      format("embedded-opentype"),
+    url("../extension-fonts/TodaySansNowPro-ExtraLight.woff2") format("woff2"),
+    url("../extension-fonts/TodaySansNowPro-ExtraLight.woff") format("woff"),
+    url("../extension-fonts/TodaySansNowPro-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
