@@ -1,247 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- META DATA -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title Optimization -->
+    <title>Nao Medical Support Portal | 24/7 Assistance for Billing, Insurance & More</title>
+    <!-- Meta Description -->
+    <meta
+      name="description"
+      content="Welcome to the Nao Medical Support Portal. Get 24/7 assistance for healthcare services like billing inquiries, insurance support, primary care, and more."
+    />
+    <!-- Additional Meta Tags -->
+    <meta name="keywords" content="Nao Medical Support, Billing Assistance, Healthcare Support 24/7" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph Tags for Social Sharing -->
+    <meta property="og:title" content="Nao Medical Support Portal" />
+    <meta
+      property="og:description"
+      content="Explore the Nao Medical Support Portal to find quick answers to common questions about billing, insurance, locations, and more!"
+    />
+    <meta property="og:url" content="https://www.naomedical.com/support-portal" />
+    <meta property="og:image" content="https://www.naomedical.com/assets/og-thumbnail.png" />
+    <meta property="og:type" content="website" />
+
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <title>Ticket Portal</title>
     <link rel="stylesheet" href="css/t-port.css" />
     <link rel="stylesheet" href="css/t-fonts.css" />
   </head>
   <body>
+    <!-- Header -->
     <header>
         <div class="log-cont">
-          <img src="./assets/logo-help.png" alt="nao-medical" class="log-img" />
+          <img src="./assets/logo-help.png" alt="Logo of Nao Medical Support Portal" class="log-img" />
         </div>
     </header>
 
+    <!-- Background Section -->
     <section>
-      <img src="./assets/ellipse.png" alt="nao-medical" class="bg-absolute" />
-      <img src="./assets/ellipse-1.png" alt="nao-medical_2" class="bg-absolute-2" />
+      <img src="./assets/ellipse.png" alt="Background design element 1" class="bg-absolute" />
+      <img src="./assets/ellipse-1.png" alt="Background design element 2" class="bg-absolute-2" />
     </section>
-
-      
     
+    <!-- Hero Section -->
     <section class="hero">
       <div class="hero-cont">
         <div class="hero-container">
-          <img src="./assets/robot.svg" alt="" />
-          <h1 id="hero-main-heading" class="h-h">How can I help you nao?</h1>
+          <img src="./assets/robot.svg" alt="Nao Medical Virtual Assistant" />
+          <h1 id="hero-main-heading" class="h-h">
+            How Can Nao Medical Support Assist You 24/7?
+          </h1>
           <div class="input-container">
             <i class="material-icons search-icon">search</i>
-
-            <!-- Search Bar -->
-        <input  
-        id="hero-search-bar"
-        type="text"
-        placeholder="How can Nao Medical 24/7 Support assist you?"
-        class="search-bar"
-      />
-    </div>
-
-    <!-- Search Results Container -->
-    <div id="search-results" class="search-results"></div>
-  </div>
-</div>
-</section>
-
-    <section class="section-1">
-      <div class="sec-1-card" onclick="window.location.href='./support-pages/billing-support.html'">
-        <img src="./assets/sec-11.svg" alt="" />
-        <h2 class="sec-title">Billing Support</h2>
-        
-      </div>
-      <div class="sec-1-card" onclick="window.location.href='./support-pages/Immigration-General-Inquiry.html'">
-        <img src="./assets/sec-11.svg" alt="" />
-        <h2 class="sec-title">Immigration Support Inquiry</h2>
-        
-      <!-- </div>
-      <div class="sec-1-card">
-        <img src="./assets/sec-11.svg" alt="" />
-        <h2 class="sec-title">Billing Support</h2> -->
-        
-      </div>
-      <div class="sec-1-card" onclick="window.location.href='./support-pages/Insurance-General-Inquiry.html'">
-        <img src="./assets/sec-11.svg" alt="" />
-        <h2 class="sec-title">Insurance Inquiry</h2>
-        
-      </div>
-      <div class="sec-1-card" onclick="window.location.href='./support-pages/Loc-Hours-of-Operation.html'">
-        <img src="./assets/sec-11.svg" alt="" />
-        <h2 class="sec-title">Location and Hours of Operation</h2>
-        
-      </div>
-      <div class="sec-1-card" onclick="window.location.href='./support-pages/Nutrition-General-Inquiry.html'">
-        <img src="./assets/sec-11.svg" alt="" />
-        <h2 class="sec-title">Nutrional Health Inquiry</h2>
-        
-      </div>
-      <div class="sec-1-card" onclick="window.location.href='./support-pages/PCP-General-Inquiry.html'">
-        <img src="./assets/sec-11.svg" alt="" />
-        <h2 class="sec-title">PCP Inquiry</h2>
-        
-      <!-- </div>
-      <div class="sec-1-card">
-        <img src="./assets/sec-11.svg" alt="" />
-        <h2 class="sec-title">Billing Support</h2>
-        
-      </div>
-      <div class="sec-1-card">
-        <img src="./assets/sec-11.svg" alt="" />
-        <h2 class="sec-title">Billing Support</h2> -->
-        
+            <input  
+              id="hero-search-bar"
+              type="text"
+              placeholder="What are you seeking help with today?"
+              class="search-bar"
+            />
+          </div>
+          <!-- Search Results -->
+          <div id="search-results" class="search-results"></div>
+        </div>
       </div>
     </section>
 
+    <!-- Support Options Section -->
+    <section class="section-1">
+      <h2 class="sec-title">Explore Our Support Services</h2>
+      <div class="sec-1-card" onclick="window.location.href='./support-pages/billing-support.html'">
+        <img src="./assets/sec-11.svg" alt="Billing Support Icon" />
+        <h3>Billing Support</h3>
+      </div>
+      <div class="sec-1-card" onclick="window.location.href='./support-pages/Immigration-General-Inquiry.html'">
+        <img src="./assets/sec-11.svg" alt="Immigration Inquiry Icon"/>
+        <h3>Immigration Inquiry</h3>
+      </div>
+      <div class="sec-1-card" onclick="window.location.href='./support-pages/Insurance-General-Inquiry.html'">
+        <img src="./assets/sec-11.svg" alt="Insurance Support Icon" />
+        <h3>Insurance Inquiry</h3>
+      </div>
+      <div class="sec-1-card" onclick="window.location.href='./support-pages/Loc-Hours-of-Operation.html'">
+        <img src="./assets/sec-11.svg" alt="Location and Hours Icon"/>
+        <h3>Location and Hours</h3>
+      </div>
+      <div class="sec-1-card" onclick="window.location.href='./support-pages/Nutrition-General-Inquiry.html'">
+        <img src="./assets/sec-11.svg" alt="Nutrition Health Inquiry Icon"/>
+        <h3>Nutritional Health Inquiry</h3>
+      </div>
+    </section>
+
+    <!-- About Section -->
     <section class="first">
       <div id="first-section-container" class="first-div">
         <img
           id="first-section-image"
           src="./assets/first-img.png"
-          alt="nao-medical"
+          alt="Representation of Nao Medical Support Services"
           class="first-img"
         />
         <div>
-          <h2 id="first-section-heading" class="f1h">
-            <span id="first-section-heading-highlight"> Welcome to </span>
-            Nao Medical Support
+          <h2 id="first-section-heading">
+            Welcome to <span id="first-section-heading-highlight">Nao Medical Support</span>
           </h2>
-          <p id="first-section-description-1" class="f2p">
-            At Nao Medical, we’re committed to guiding you through every aspect
-            of your healthcare journey.
+          <p id="first-section-description-1">
+            At Nao Medical, we are committed to helping you navigate your healthcare journey with ease.
           </p>
-          <p id="first-section-description-2" class="f3p">
-            Our Support Page acts as a reliable resource to address common
-            concerns, answer questions, and simplify your experience with our
-            services.
-          </p>
-          <p id="first-section-description-2" class="f3p">
-            From billing inquiries to gynecology services, primary care, and
-            nutrition, each section is carefully tailored to help you find the
-            answers you need—right when you need them.
+          <p id="first-section-description-2">
+            Our Support Portal provides answers to common queries—whether it’s billing, nutrition services, or primary care, we've got you covered.
           </p>
         </div>
       </div>
     </section>
 
+    <!-- FAQ Section -->
     <section id="faqs-section" class="faqs-section">
-      <h2 id="faqs-title" class="faqs-title">FAQS</h2>
-      <div id="faqs-container" class="faqs-container">
-        <div id="faq-item-1" class="faq-item">
-          <h3 id="faq-question-1" class="faq-question">
-            What is virtual care for occupational health?
-            <img
-              id="faq-icon-1"
-              src="./assets/drop.svg"
-              alt="toggle icon"
-              class="faq-icon"
-            />
-          </h3>
-          <div class="faq-content">
-            Virtual care for occupational health refers to using telemedicine to
-            provide employees with healthcare services such as wellness
-            checkups, mental health support, and follow-up consultations.
-          </div>
+      <h2>Frequently Asked Questions (FAQs)</h2>
+      <div id="faqs-container">
+        <div id="faq-item-1">
+          <h3>What is virtual care for occupational health?</h3>
+          <p>
+            Virtual care provides telemedicine services for occupational health, including mental health and wellness checkups.
+          </p>
         </div>
-        <hr class="fffff" />
-
-        <div id="faq-item-2" class="faq-item">
-          <h3 id="faq-question-2" class="faq-question">
-            How does virtual care benefit employers?
-            <img
-              id="faq-icon-2"
-              src="./assets/drop.svg"
-              alt="toggle icon"
-              class="faq-icon"
-            />
-          </h3>
-          <div class="faq-content">
-            Employers benefit from reduced downtime, lower healthcare costs, and
-            improved employee satisfaction and retention by offering accessible
-            and convenient health services.
-          </div>
+        <hr />
+        <div id="faq-item-2">
+          <h3>How does virtual care benefit employers?</h3>
+          <p>
+            Employers benefit from lower costs, better retention, and convenient healthcare solutions for employees.
+          </p>
         </div>
-        <hr class="fffff" />
-
-        <div id="faq-item-3" class="faq-item">
-          <h3 id="faq-question-3" class="faq-question">
-            Can virtual care handle workers’ compensation cases?
-            <img
-              id="faq-icon-3"
-              src="./assets/drop.svg"
-              alt="toggle icon"
-              class="faq-icon"
-            />
-          </h3>
-          <div class="faq-content">
-            Yes, our platform includes follow-up consultations for workers’
-            compensation cases, ensuring employees receive proper care and
-            guidance during recovery.
-          </div>
-        </div>
-        <hr class="fffff" />
-
-        <div id="faq-item-3" class="faq-item">
-          <h3 id="faq-question-4" class="faq-question">
-            Is virtual care suitable for remote employees?
-            <img
-              id="faq-icon-4"
-              src="./assets/drop.svg"
-              alt="toggle icon"
-              class="faq-icon"
-            />
-          </h3>
-          <div class="faq-content">
-            Absolutely. Virtual care is designed to support employees wherever
-            they are, making it an ideal solution for remote and hybrid teams.
-          </div>
-        </div>
-        <hr class="fffff" />
-
-        <div id="faq-item-5" class="faq-item">
-          <h3 id="faq-question-5" class="faq-question">
-            How do employees schedule virtual care appointments?
-            <img
-              id="faq-icon-5"
-              src="./assets/drop.svg"
-              alt="toggle icon"
-              class="faq-icon"
-            />
-          </h3>
-          <div class="faq-content">
-            Employees can easily book appointments by calling us at (917)
-            633-0834 or through our websote, choosing a time that fits their
-            schedule.
-          </div>
-        </div>
-        <hr class="fffff" />
-
-        <div id="faq-item-6" class="faq-item">
-          <h3 id="faq-question-6" class="faq-question">
-            Does virtual care include mental health services?
-            <img
-              id="faq-icon-6"
-              src="./assets/drop.svg"
-              alt="toggle icon"
-              class="faq-icon"
-            />
-          </h3>
-          <div class="faq-content">
-            Yes, we provide comprehensive virtual mental health support,
-            including counseling and stress management, to promote overall
-            well-being.
-          </div>
-        </div>
-        <hr class="fffff" />
+        <hr />
       </div>
-      <p id="view-all-link" class="view-all">View All</p>
     </section>
 
-    <!-- ____________________footer________________________ -->
+    <!-- Footer Section -->
     <footer id="footer" class="footer">
       <div id="footer-content" class="footer-content">
         <div id="footer-logo" class="footer-logo">
-          <img id="footer-logo-img" src="./assets/logo.png" alt="nao-medical" />
+          <img id="footer-logo-img" src="./assets/logo.png" alt="Nao Medical Logo" />
         </div>
 
         <div id="footer-socials" class="footer-socials">
@@ -253,7 +152,7 @@
             <img
               id="footer-linkedin-icon"
               src="./assets/linkedin.svg"
-              alt="nao-medical"
+              alt="LinkedIn Nao Medical"
               class="social-icon"
             />
             LinkedIn
@@ -266,7 +165,7 @@
             <img
               id="footer-facebook-icon"
               src="./assets/facebook.svg"
-              alt="nao-medical"
+              alt="Facebook Nao Medical"
               class="social-icon"
             />
             Facebook
@@ -279,7 +178,7 @@
             <img
               id="footer-twitter-icon"
               src="./assets/twitter.svg"
-              alt="nao-medical"
+              alt="Twitter Nao Medical"
               class="social-icon"
             />
             Twitter
@@ -292,7 +191,7 @@
             <img
               id="footer-instagram-icon"
               src="./assets/insta.svg"
-              alt="nao-medical"
+              alt="Instagram Nao Medical"
               class="social-icon"
             />
             Instagram
@@ -320,6 +219,8 @@
         any errors or concerns, please bring it to our attention by emailing us.
       </p>
     </footer>
+
+    <!-- Footer JavaScript -->
     <script src="./js/t-port.js"></script>
   </body>
 </html>
