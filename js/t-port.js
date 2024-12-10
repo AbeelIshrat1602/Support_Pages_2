@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    // FAQ toggle functionality
+    // FAQ Toggle Functionality
     const faqItems = document.querySelectorAll(".faq-item");
     const viewAllLink = document.getElementById("view-all-link");
     let allExpanded = false; // Tracks whether all FAQs are expanded or collapsed
@@ -15,27 +15,30 @@ document.addEventListener("DOMContentLoaded", () => {
         });
 
         // Update the text of the "View All" link
-        viewAllLink.textContent = allExpanded ? "View All" : "Collapse All";
+        if (viewAllLink) {
+            viewAllLink.textContent = allExpanded ? "View All" : "Collapse All";
+        }
 
         // Toggle the allExpanded state
         allExpanded = !allExpanded;
     };
 
-    // Add event listener to "View All" link
+    // Attach event listener to View All link
     if (viewAllLink) {
         viewAllLink.addEventListener("click", toggleAllFAQs);
     }
 
-    // Add individual toggle functionality for each FAQ
+    // Attach individual toggle functionality to each FAQ item
     faqItems.forEach((item) => {
         const question = item.querySelector(".faq-question");
-
-        question.addEventListener("click", () => {
-            item.classList.toggle("active");
-        });
+        if (question) {
+            question.addEventListener("click", () => {
+                item.classList.toggle("active");
+            });
+        }
     });
 
-    // Hamburger menu toggle functionality
+    // Hamburger Menu Toggle Functionality
     const ham = document.querySelector(".ham");
     const mobileMenu = document.querySelector(".mobile-menu");
 
@@ -47,10 +50,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Feedback Widget Integration
     const injectFeedbackWidget = () => {
-        // Dynamically adjust the path to "feedback-widget.html"
-        let basePath = window.location.pathname.includes('/support-pages/')
-            ? '/feedback-widget.html' // If in a nested page
-            : './feedback-widget.html'; // If at the root directory
+        // Use absolute path to ensure compatibility across directory levels
+        const basePath = '/feedback-widget.html';
 
         fetch(basePath)
             .then((response) => {
@@ -60,7 +61,19 @@ document.addEventListener("DOMContentLoaded", () => {
                 return response.text();
             })
             .then((html) => {
-                document.body.insertAdjacentHTML('beforeend', html); // Inject Feedback Widget
+                // Inject the feedback widget into the body
+                document.body.insertAdjacentHTML('beforeend', html);
+
+                // Attach event listener to Feedback Button
+                const openFeedbackButton = document.getElementById("open-feedback");
+                const feedbackForm = document.getElementById("feedback-form");
+
+                if (openFeedbackButton && feedbackForm) {
+                    openFeedbackButton.addEventListener("click", () => {
+                        feedbackForm.style.display =
+                            feedbackForm.style.display === "block" ? "none" : "block";
+                    });
+                }
             })
             .catch((error) => console.error('Error loading the Feedback Widget:', error));
     };
