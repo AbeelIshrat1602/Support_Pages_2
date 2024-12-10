@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
+    // FAQ toggle functionality
     const faqItems = document.querySelectorAll(".faq-item");
     const viewAllLink = document.getElementById("view-all-link");
     let allExpanded = false; // Tracks whether all FAQs are expanded or collapsed
@@ -21,7 +22,9 @@ document.addEventListener("DOMContentLoaded", () => {
     };
 
     // Add event listener to "View All" link
-    viewAllLink.addEventListener("click", toggleAllFAQs);
+    if (viewAllLink) {
+        viewAllLink.addEventListener("click", toggleAllFAQs);
+    }
 
     // Add individual toggle functionality for each FAQ
     faqItems.forEach((item) => {
@@ -31,13 +34,36 @@ document.addEventListener("DOMContentLoaded", () => {
             item.classList.toggle("active");
         });
     });
-});
 
-document.addEventListener("DOMContentLoaded", () => {
+    // Hamburger menu toggle functionality
     const ham = document.querySelector(".ham");
     const mobileMenu = document.querySelector(".mobile-menu");
 
-    ham.addEventListener("click", () => {
-        mobileMenu.classList.toggle("open");
-    });
+    if (ham && mobileMenu) {
+        ham.addEventListener("click", () => {
+            mobileMenu.classList.toggle("open");
+        });
+    }
+
+    // Feedback Widget Integration
+    const injectFeedbackWidget = () => {
+        // Dynamically adjust the path to "feedback-widget.html"
+        let basePath = window.location.pathname.includes('/support-pages/')
+            ? '/feedback-widget.html' // If in a nested page
+            : './feedback-widget.html'; // If at the root directory
+
+        fetch(basePath)
+            .then((response) => {
+                if (!response.ok) {
+                    throw new Error('Failed to load feedback widget');
+                }
+                return response.text();
+            })
+            .then((html) => {
+                document.body.insertAdjacentHTML('beforeend', html); // Inject Feedback Widget
+            })
+            .catch((error) => console.error('Error loading the Feedback Widget:', error));
+    };
+
+    injectFeedbackWidget(); // Inject the widget into all pages
 });
