@@ -1,172 +1,116 @@
 <!DOCTYPE html>
+
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <!-- Title Tag -->
     <title>Location and Working Hours | Nao Medical Portal</title>
-    
     <!-- Meta Description -->
-    <meta
-      name="description"
-      content="Get the details for all Nao Medical locations and working hours. Find clinics near you and learn about our operating times for urgent care services."
-    />
-    
+    <meta content="Get the details for all Nao Medical locations and working hours. Find clinics near you and learn about our operating times for urgent care services." name="description" />
     <!-- Keywords -->
-    <meta
-      name="keywords"
-      content="Nao Medical Locations, Working Hours, Clinic Timings, Nao Medical Clinics, Clinic Operating Times, Nao Medical Near Me"
-    />
-    
+    <meta content="Nao Medical Locations, Working Hours, Clinic Timings, Nao Medical Clinics, Clinic Operating Times, Nao Medical Near Me" name="keywords" />
     <!-- Robots -->
-    <meta name="robots" content="index, follow" />
-
+    <meta content="index, follow" name="robots" />
     <!-- Open Graph Tags -->
-    <meta property="og:title" content="Location and Working Hours | Nao Medical Portal" />
-    <meta
-      property="og:description"
-      content="Find Nao Medical locations and their working hours. Check the nearest clinic, clinic schedules, and operating times for your convenience."
-    />
-    <meta 
-      property="og:image" 
-      content="https://www.naomedical.com/assets/locations-working-hours-thumbnail.jpg" 
-    />
-    <meta property="og:url" 
-      content="https://www.naomedical.com/support/location-and-working-hours" />
-    <meta property="og:type" content="website" />
-
+    <meta content="Location and Working Hours | Nao Medical Portal" property="og:title" />
+    <meta content="Find Nao Medical locations and their working hours. Check the nearest clinic, clinic schedules, and operating times for your convenience." property="og:description" />
+    <meta content="https://www.naomedical.com/assets/locations-working-hours-thumbnail.jpg" property="og:image" />
+    <meta content="https://www.naomedical.com/support/location-and-working-hours" property="og:url" />
+    <meta content="website" property="og:type" />
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-    <link rel="stylesheet" href="../../css/t-port.css" />
-    <link rel="stylesheet" href="../../css/t-fonts.css" />
-  </head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="../../css/t-port.css" rel="stylesheet" />
+    <link href="../../css/t-fonts.css" rel="stylesheet" />
+    <link rel="icon" href="../../assets/nao.svg" type="image/svg+xml">
+</head>
 
-  <body>
+<body>
     <!-- Header -->
     <header>
-      <div class="log-cont">
-        <img src="../../assets/logo-help.png" alt="Nao Medical Logo" class="log-img" />
-      </div>
+        <div class="log-cont">
+            <img alt="Nao Medical Logo" class="log-img" src="../../assets/logo-help.png" />
+        </div>
     </header>
-
     <!-- Background Section -->
     <section>
-      <img src="../../assets/ellipse.png" alt="Nao Medical Background Graphic 1" class="bg-absolute" />
-      <img src="../../assets/ellipse-1.png" alt="Nao Medical Background Graphic 2" class="bg-absolute-2" />
+        <img alt="Nao Medical Background Graphic 1" class="bg-absolute" src="../../assets/ellipse.png" />
+        <img alt="Nao Medical Background Graphic 2" class="bg-absolute-2" src="../../assets/ellipse-1.png" />
     </section>
-
     <!-- Hero Section -->
     <section class="hero">
-      <div class="hero-cont">
-        <div class="hero-container">
-          <img src="../../assets/robot.svg" alt="Nao Medical Virtual Assistant" />
-          <h1 id="hero-main-heading" class="h-h">Location and Working Hours</h1>
-          <div class="input-container">
-            <i class="material-icons search-icon">search</i>
-            <input  
-              id="hero-search-bar"
-              type="text"
-              placeholder="Find Nao Medical clinics and working hours"
-              class="search-bar"
-            />
-          </div>
+        <div class="hero-cont">
+            <div class="hero-container">
+                <img alt="Nao Medical Virtual Assistant" src="../../assets/robot.svg" />
+                <h1 class="h-h" id="hero-main-heading">Location and Working Hours</h1>
+                <div class="input-container">
+                    <i class="material-icons search-icon">search</i>
+                    <input class="search-bar" id="hero-search-bar" placeholder="Find Nao Medical clinics and working hours" type="text" />
+                </div>
+            </div>
         </div>
-      </div>
     </section>
-
     <!-- Introduction Section -->
     <section class="first">
-      <div id="first-section-container" class="first-div">
-        <img src="../../assets/sec-11.svg" alt="Nao Medical Location Icon" class="support-logo"/>
-        <div>
-          <p id="first-section-description-1">
-            Nao Medical provides quality care conveniently located near you. With multiple clinics operating throughout the city, we are committed to offering flexible and accessible healthcare services.<br><br>
-            Check our working hours and find the clinic nearest to you to receive the care you need when you need it most.
-          </p>
+        <div class="first-div" id="searchable-first-section-container">
+            <img alt="Nao Medical Location Icon" class="support-logo" src="../../assets/location.png" />
+            <div>
+                <p id="first-section-description-1">
+                    Nao Medical provides quality care conveniently located near you. With multiple clinics operating throughout the city, we are committed to offering flexible and accessible healthcare services.<br/><br/> Check our working hours and find
+                    the clinic nearest to you to receive the care you need when you need it most.
+                </p>
+            </div>
         </div>
-      </div>
     </section>
-
     <!-- FAQ Section -->
-    <section id="faqs-section" class="faqs-section">
-      <h2 class="faq-heading">Frequently Asked Questions</h2>
-      <div id="faqs-container" class="faqs-container">
-        <div id="faq-item-1" class="faq-item">
-          <h3>
-            <a href="faq1.html">What are Nao Medical’s working hours?</a>
-          </h3>
+    <section class="faqs-section" id="faqs-section">
+        <h2 class="faq-heading">Frequently Asked Questions</h2>
+        <div class="faqs-container" id="faqs-container">
+            <div class="faq-item" id="searchable-faq-item-1">
+                <h3>
+                    <a href="faq1.html">What are Nao Medical’s working hours?</a>
+                </h3>
+            </div>
+            <hr/>
+            <div class="faq-item" id="searchable-faq-item-2">
+                <h3>
+                </h3>
+            </div>
         </div>
-        <hr />
-        <div id="faq-item-2" class="faq-item">
-          <h3>
-      </div>
     </section>
-
     <!-- Footer Section -->
     <footer class="footer">
-      <div class="footer-content">
-        <div class="footer-logo">
-          <img src="../../assets/logo.png" alt="Nao Medical Logo" />
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img alt="Nao Medical Logo" src="../../assets/logo.png" />
+            </div>
+            <!-- Social Media Links -->
+            <div class="footer-socials">
+                <a class="social-link" href="https://www.linkedin.com/company/naomedical" rel="noopener" target="_blank">
+                    <img alt="LinkedIn Logo" class="social-icon" src="../../assets/linkedin.svg" /> LinkedIn
+                </a>
+                <a class="social-link" href="https://www.facebook.com/naomedical/" rel="noopener" target="_blank">
+                    <img alt="Facebook Logo" class="social-icon" src="../../assets/facebook.svg" /> Facebook
+                </a>
+                <a class="social-link" href="https://x.com/NaoMedical" rel="noopener" target="_blank">
+                    <img alt="Twitter Logo" class="social-icon" src="../../assets/twitter.svg" /> Twitter
+                </a>
+                <a class="social-link" href="https://www.instagram.com/naomedical/" rel="noopener" target="_blank">
+                    <img alt="Instagram Logo" class="social-icon" src="../../assets/insta.svg" /> Instagram
+                </a>
+            </div>
+            <hr class="footer-divider" />
+            <!-- Footer Text -->
+            <p class="footer-text">
+                If you are vision-impaired or have some other impairment covered by the Americans with Disabilities Act or a similar law, and you wish to discuss potential accommodations related to using this website, please contact us at
+                <a class="footer-link" href="mailto:service@naomedical.com">service@naomedical.com</a> or call
+                <strong>(917) 633-1548 Extension 288</strong>. If there are any errors or concerns, please bring them to our attention by emailing us.
+            </p>
         </div>
-
-        <!-- Social Media Links -->
-        <div class="footer-socials">
-          <a
-            href="https://www.linkedin.com/company/naomedical"
-            class="social-link"
-            target="_blank"
-            rel="noopener"
-          >
-            <img src="../../assets/linkedin.svg" alt="LinkedIn Logo" class="social-icon" />
-            LinkedIn
-          </a>
-          <a
-            href="https://www.facebook.com/naomedical/"
-            class="social-link"
-            target="_blank"
-            rel="noopener"
-          >
-            <img src="../../assets/facebook.svg" alt="Facebook Logo" class="social-icon" />
-            Facebook
-          </a>
-          <a
-            href="https://x.com/NaoMedical"
-            class="social-link"
-            target="_blank"
-            rel="noopener"
-          >
-            <img src="../../assets/twitter.svg" alt="Twitter Logo" class="social-icon" />
-            Twitter
-          </a>
-          <a
-            href="https://www.instagram.com/naomedical/"
-            class="social-link"
-            target="_blank"
-            rel="noopener"
-          >
-            <img
-              src="../../assets/insta.svg"
-              alt="Instagram Logo"
-              class="social-icon"
-            />
-            Instagram
-          </a>
-        </div>
-
-        <hr class="footer-divider" />
-
-        <!-- Footer Text -->
-        <p class="footer-text">
-          If you are vision-impaired or have some other impairment covered by the Americans with Disabilities Act or a similar law, and you wish to discuss potential accommodations related to using this website, please contact us at
-          <a href="mailto:service@naomedical.com" class="footer-link">service@naomedical.com</a>
-          or call
-          <strong>(917) 633-1548 Extension 288</strong>. If there are any errors or concerns, please bring them to our attention by emailing us.
-        </p>
-      </div>
     </footer>
-
     <!-- Footer Script -->
-    <script src="../js/t-port.js"></script>
-  </body>
+    <script src="../../js/t-port.js"></script>
+</body>
+
 </html>
